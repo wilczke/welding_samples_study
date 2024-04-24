@@ -11,9 +11,10 @@ The stand was equiped with current transformer LEM AHR 800 B10 and voltage trans
 An example ilustrating some features of presented tools. 
 
 ```
+import pandas as pd
 import knn_test as kt
 ```
-Imports `knn_test` module.
+Imports `pandas` library and `knn_test` module.
 ```
 df = pd.read_csv('VTrecords4')
 clas_l = [0, 1, 2, 3, 4, 5, 9, 11, 12, 13, 15, 17, 20, 21] 
@@ -30,4 +31,5 @@ a = I2.polt_conf_matrix(0)
 ```
 Plots confusion matrix based on build model.
 
-![obraz](https://github.com/wilczke/welding_samples_study/assets/103566385/8a1a0b5e-b859-4f08-bcd4-3fa0406b030a)
+![obraz](https://github.com/wilczke/welding_samples_study/assets/103566385/319240ac-aede-42f6-b0ea-0606645e347c)
+
