@@ -9,6 +9,8 @@ The stand was equiped with current transformer LEM AHR 800 B10 and voltage trans
 # Usage example
 in development...
 
-'''
-import knn_test as kt
-'''
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
