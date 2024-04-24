@@ -1,5 +1,6 @@
 # Welding samples study
 This project contains tools for signal processing. They were originally used in welding signal analysis.
+The `SignalStats` module was used for data preparation by calculating signal statistical data. The `knn_test` module was written for building k-Nearest Neighbours models and conducting thier analysis.
 
 # Test stand
 For the examination porpouse 50 samples were prepared, welded with diferent parameters. The samples were produced using KUKA KR 240 welding robot equiped with KRC2 control system.
